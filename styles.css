@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* Adjust map container dimensions */
+#map-container {
+    height: 400px;
+    width: 100%;
+}
+
+.paveiksliukas {
+    background-color: aquamarine;
+    height: 300px;
+    width: 30%;
+}
+
+.pirmastaskasdiv {
+    background-color: #5ccc67;
+}
+
+.pirmastaskasimg  {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.pirmastaskastxt {
+    text-align: justify;
+}
+
+.pirmataskasp {
+    padding: 7px;
+}
+
+.leaflet-container a {
+    color: #09a914;
+}
