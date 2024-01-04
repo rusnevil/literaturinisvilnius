@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #d3f5cf;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 a {
-    color: #007bff;
+    color: #337135;
     text-decoration: none;
 }
 
@@ -73,20 +73,14 @@ a:hover {
     width: 100%;
 }
 
-.paveiksliukas {
-    background-color: aquamarine;
-    height: 300px;
-    width: 30%;
-}
-
 .pirmastaskasdiv {
     background-color: #5ccc67;
 }
 
 .pirmastaskasimg  {
     float: left;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 120px;
     margin-right: 10px;
 }
 
@@ -98,6 +92,42 @@ a:hover {
     padding: 7px;
 }
 
+.txtname {
+    -webkit-text-fill-color: #000000;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.title {
+    font-style: initial;
+}
+
+.vk {
+    text-align: justify;
+}
+
+.tautiskag {
+    font-size: x-large;
+}
+
 .leaflet-container a {
-    color: #09a914;
+    color: #337135;
+}
+
+.vkportretas {
+    height: 200px;
+    width: 150px;
+    float: right;
+    margin-left: 15px;
+}
+
+.himnas {
+    text-align: justify;
+}
+
+.himnasimg {
+    height: 150px;
+    width: 100px;
+    float: right;
+    margin-left: 15px;
 }
