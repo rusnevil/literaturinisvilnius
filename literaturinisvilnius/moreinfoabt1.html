@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Lieratūrinis Vilnius</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Apie</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Vincas Kudirka</h2>
+            <p class="vk"><img class="vkportretas" src="./images/vincaskudirka.jpg">
+                Vincas Kudirka (1858-1899)- prozininkas, poetas, publicistas, vertėjas, vienas
+                Tautinio sąjūdžio ideologų, įvertinęs socialinio kriticizmo tradiciją lietuvių kultūroje. 
+                Tėvo verčiamas 1877m. įstojo į kunigų seminariją, tačiau vėliau buvo pašalintas dėl 
+                pašaukimo stokos. Jis savo lėšomis pabaigė Marijampolės gimnaziją ir išvyko į Varšuvą studijuoti 
+                istorijos-filologijos. Dar būdamas studentu, įkvėptas laikraščio „Aušra“, įsitraukė į tautinio 
+                atgimimo judėjimą. 1889m. prisidėjo prie žurnalo „Varpas“ leidimo V. Kudirka siekė veikti visuomenės 
+                sąmonę, skatino ugdyti tautinę ir pilietinę savivoką, gynė žmogaus ir tautos teises, rūpinosi 
+                lietuvių valstietijos ekonominiu ir agrariniu lavinimu, kritikavo valdininkų dorovę, griežtai 
+                smerkė Rusijos valdžios vykdomą rusinimo politiką. Varpe leisti straipsniai pasižymėjo gyva kalba, 
+                ironija ir sarkazmu, meninių priemonių derinimu su faktais, pasakos elementais, dialogais. 1890 
+                metais organizavo laikraščio „Ūkininkas“ leidimą, tais pačiais metais pradėjo dirbti gydytoju 
+                Šakiuose, kur jis subūrė styginių instrumentų ansamblį bei surado sielos draugę, našlę V. Kraševskienę, 
+                kuri paskutinėmis Vinco Kudirkos gyvenimo dienomis labai juo rūpinosi, jam susirgus džiova. 
+                1898m. jis parašė „Tautišką giesmę“, po metų paliko šį pasaulį, tapęs neginčijamu tautinės kultūros herojumi.
+                <p class="tautiskag">Tautiška giesmė</p></p>
+                <p class="himnas"><img class="himnasimg" src="./images/himnas.jpg">
+                Vincas Kudirka pirmą kartą Tautišką giesmę išleido savo redaguotame laikraštyje „Varpas“, jis yra
+                šios giesmės teksto ir natų autorius. Nors dabar „Tautiška giesmė“ yra tapusi Lietuvos himnu, tačiau
+                Kudirka šio kūrinio nesureikšmino, nesutelkė jam didelio dėmesio. Tik po jo mirties „Tautiška giesmė“
+                buvo pradėta dainuoti įvairiuose renginiuose. Žmonės šią giesmę gerbė, mėgo, vakarais ar per renginius
+                ją dainuodavo ne vieną kartą. 1905 metais ši giesmė buvo sugiedota Didžiojo Lietuvos seimo surengtame
+                koncerte, taip giesmė išgarsėjo visoje Lietuvoje. 
+                <a href="https://www.youtube.com/watch?v=cZLDV2TvMX0&pp=ygUPbGlldHV2b3MgaGltbmFz">Tautiška giesmė</a></p>
+                 
+                <p>Filmas apie V. Kudirką <a href="https://lrt.lt/mediateka/irasas/45671/dokumentinis-filmas-pasijutau-lietuviu-esas">"Pasijutau lietuviu esąs"</a></p>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

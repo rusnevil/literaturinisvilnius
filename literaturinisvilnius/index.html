@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Literatūrinis Vilnius</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Apie</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Apie mus</h2>
+            <p>galimai bus įdėtas tekstas apie tai, kokiu tikslu veikia ši svetainė ir pan.</p>
+        </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 </p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

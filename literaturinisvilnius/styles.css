@@ -1,0 +1,133 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d3f5cf;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #337135;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* Adjust map container dimensions */
+#map-container {
+    height: 400px;
+    width: 100%;
+}
+
+.pirmastaskasdiv {
+    background-color: #5ccc67;
+}
+
+.pirmastaskasimg  {
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.pirmastaskastxt {
+    text-align: justify;
+}
+
+.pirmataskasp {
+    padding: 7px;
+}
+
+.txtname {
+    -webkit-text-fill-color: #000000;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.title {
+    font-style: initial;
+}
+
+.vk {
+    text-align: justify;
+}
+
+.tautiskag {
+    font-size: x-large;
+}
+
+.leaflet-container a {
+    color: #337135;
+}
+
+.vkportretas {
+    height: 200px;
+    width: 150px;
+    float: right;
+    margin-left: 15px;
+}
+
+.himnas {
+    text-align: justify;
+}
+
+.himnasimg {
+    height: 150px;
+    width: 100px;
+    float: right;
+    margin-left: 15px;
+}
