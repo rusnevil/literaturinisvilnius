@@ -30,7 +30,7 @@ nav a {
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
 }
 
 footer {
@@ -147,9 +147,43 @@ figure {
     display: flex;
     justify-content: center;
   }
-
+  
+    .imgg {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+      }
+  
   .piesiniai {
     text-align: center;
     font-style: italic;
     color: #000000;
+  }
+
+  @media (max-width: 678px){
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .figure {
+        text-align: center;
+        display:table-column;
+        margin: 30px;
+      }
+      .imgg {
+        margin: 10px;
+        display:list-item;
+        justify-content: center;
+      }
+      .portretas {
+        max-width: 100%;
+        height: auto; 
+        float: center;
+        margin-bottom: 25px;
+    }
+    #map-container {
+        height: 350px;
+        width: 100%;
+    }
   }
