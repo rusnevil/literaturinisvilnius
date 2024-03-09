@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: black;">Literatūrinis Vilnius</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Apie</a></li>
+                <li><a href="./index.html">Sąrašas</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Justinas Marcinkevičius</h2>
+            <p class="info">
+                <img class="portretas" src="./images/jmportretas.jpg" > 
+                Justinas Marcinkevičius (1930 03 - 2011 02 16) - lietuvių rašytojas, vertėjas. Mokėsi Alksniakiemio pradžios mokykloje, vėliau Prienų „Žiburio“ gimnazijoje, kur sukūrė savo pirmuosius kūrinius: parašė poemėles apie Vilniaus krašto išvadavimą iš Lenkų, apie jo kaimo draugų, partizanų, žūtį ir trečiąją mokyklos teatrui apie tuometinį gyvenimą. Iš šių trijų poemėlių, ne viena neišliko. 1948 m. su prokuratūra buvo pradėto mokinių tardymai dėl įtarimų, kad yra susidariusi mokinių grupė propaguojanti laisvės idėjas. Į ta sąrašą pateko ir J. Marcinkevičius. Apieškojus Justiną buvo rasta draudžiama literatūra: Maironis, Kudirka, Maceina. Dėl to Justinas buvo įkalintas Marijampolės kalėjime. Bet po kurio laiko paleistas, nesudarius bylos. 1954 Vilniaus universitete baigė lietuvių kalbą ir literatūrą. Buvo komisijos Lietuvos nepriklausomybės planui parengti kopirmininku. Jis buvo vienas populiariausių 20 a. pabaigos – 21 a. pradžios poetų Lietuvoje. Aktyviai dalyvavo Sąjūdžio veikloje, atkuriant Lietuvos nepriklausomybę. J. Marcinkevičius išleido daugiau nei šimtą knygų: poemų, eilėraščių, dramų, eseistikos, knygų vaikams.
+                </p>
+                <p class="title">Kūryba</p>
+                <p class="info">
+                    Pagrindinės temos, kuriomis kurdavo Marcinkevičius buvo Lietuva, jos istorija ir dabartis, gamta ir kultūra, žmogus tėvynėje ir pasaulyje. J. Marcinkevičiaus kūrybos ir paties jo asmens populiarumas paskutiniais sovietmečio dešimtmečiais buvo beveik visuotinis, Jo nuopelnai Lietuvai ir literatūrai įvertinti nepriklausomybės metais: 2001 m. poetas apdovanotas Lietuvos nacionaline literatūros ir meno premija, o taip pat ir Baltijos asamblėjos premija. Poetas debiutavo 1955 metais pirmaisiais savo eilėraščių rinkiniais  - „Prašau žodžio“, „Duoną raikančios rankos“. Vėliau išleido poemų: Dvidešimtas pavasaris“, „Kraujas ir pelenai“, „Publicistinė poema“, apysaką „Pušis“, „Donelaitis“, „Siena“, „Mediniai tiltai“. „Liepsnojantis krūmas“, „Šešios poemos“, „Pažinimo medis“, „Gyvenimo švelnus prisiglaudimas“, „Būk ir palaimink“, „Vienintelė žemė“, „Už gyvus ir mirusius“, „Eilėraščiai iš dienoraščio“, „Žingsnis“, „Carmina minora“, „Dienos drobulė“, „Amžino rūpesčio pieva“. 
+                    </p>
+                <p class="title">Atminimo įamžinimas</p>
+                <p class="info">
+Apie Just. Marcinkevičių yra sukurti dokumentiniai filmai: L. Lazėno 
+                <a href="https://www.lrt.lt/mediateka/irasas/357/dokumentinis-filmas-dienorastis-be-datu">„Dienoraštis be datų“(1980)</a>,
+                S. Beržinio „Lopšinė motinai“ (1983), A. Marcinkevičiūtės
+                <a href="https://www.lrt.lt/mediateka/irasas/28187/dokumentinis-filmas-prie-rugiu-ir-prie-ugnies">„Prie rugių ir prie ugnies“ (2010)</a>, 
+                S. Birgelio 
+                <a href="https://www.youtube.com/watch?time_continue=2&v=PEBA356bUsU&embeds_referring_euri=http%3A%2F%2Farchyvas.punskas.pl%2F&source_ve_path=Mjg2NjY&feature=emb_logo">„Poezijos pavasaris 2011: baladė apie poetą Justiną Marcinkevičių“ (2011)“ (2010)</a>.
+                </p>
+                <p>
+J. Marcinkevičiaus kūrybos galima pasiklausyti   
+                <a href="https://www.lrt.lt/mediateka/irasas/102728366/vidurnakcio-lyrika-justinas-marcinkevicius">LRT mediatekoje</a>.</p>
+                <p class="title">Galerija</p>
+                <div class="imgg"><figure>
+                <img class="img" src="./images/jmjaunas1.jpg"> 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/jmjaunas2.jpg" > 
+                <figcaption>Justinas Marcinkevičius jaunystėje</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/jmjaunas3.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/jmknyga.jpg" > 
+                <figcaption>pirmasis J. Marcinkevičiaus kūrinys „Prašau žodžio“</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/jmseima.jpg" > 
+                <figcaption>Justinas Marcinkevičius su savo šeimyna</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/jmzmona.jpg" > 
+                <figcaption>Justinas Marcinkevičius su savo žmona</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/jmfanai.png" > 
+                <figcaption>Justinas Marcinkevičius pasirašinėja jo kūrybos mėgėjams</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/jmkapas.jpg" > 
+                <figcaption>Justino Marcinkevičiaus kapas</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                    <figure>
+                    <img class="img" src="./images/jmmindaugas.jpg" > 
+                    <figcaption>J. Marcinkevičius <a href="https://neakivaizdinisvilnius.lt/studijos/poetines-vilniaus-plytos/">,,Mindaugas“</a></figcaption>
+                    </figure>
+                    <figure>
+                    <img class="img" src="./images/jmkatedra.jpg" > 
+                    <figcaption>Justinas Marcinkevičius „Katedra“</figcaption>
+                    </figure>
+                    <figure>
+                    <img class="img" src="./images/jmgediminas.jpg" > 
+                    <figcaption>J. Marcinkevičius <a href="https://neakivaizdinisvilnius.lt/studijos/poetines-vilniaus-plytos/">,,Gediminas: Nostra Vilnia“</a></figcaption>
+                    </figure>
+                    </div>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

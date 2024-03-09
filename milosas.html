@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: black;">Literatūrinis Vilnius</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Apie</a></li>
+                <li><a href="./index.html">Sąrašas</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Česlovas Milošas</h2>
+            <p class="info">
+                <img class="portretas" src="./images/cmportretas.jpg" > 
+                Česlovas Milošas (1944-2004) kilęs iš paskutinės Lietuvos Didžiosios Kunigaikštystės bajorų kartos. Būdamas dar mažas vaikas, prieš prasidedant I pasauliniam karui, su mama iškeliavo į Rusiją pas inžinieriumi dirbantį tėvą, ten praleido penkerius metus. 1921–29 mokėsi Vilniaus Žygimanto Augusto gimnazijoje, 1929–34 Vilniaus universitete studijavo teisę, nors ir nuo mažens norėjo būti gamtininku. Nuo 1930 skelbė eilėraščius, pasižyminčius gamtiška vaizduote. Priklausė avangardistų grupei. Č. Milošui teko daug keliauti, emigruoti dėl nepatogių aplinkybių II pasaulinio karo. Jis gyveno Paryžiuje, Lenkijoje, ilgiausiai JAV, kur 1961–78 Kalifornijos universitete Berkelyje, 1981–82 Harvardo universitete buvo slavų literatūros profesorius. Bendravo su lietuvių išeivija, spaudoje ir kitur palaikė Lietuvos laisvėjimo sąjūdį, dažnai lankėsi nepriklausomybę atkūrusioje Lietuvoje.
+                </p>
+                <p class="title">Kūryba</p>
+                <p class="sarasas">
+                    Jis yra parašęs daug kūrinių. Jo parašyti kūriniai yra apie asmenybės, pasaulio supratimą, sovietų filosofiją, mąstyseną, savo tapatybę. Žymiausi jų yra „Isos slėnis“, apie jo paties vaikystę (pagal jį 1982 metais režisierius Tadeusz Konwicki 
+                    pastatė <a href="https://easterneuropeanmovies.com/drama/the-issa-valley">filmą</a>), „Tėvynės ieškojimas“, „Pavergtas protas“, kurio rašymui padėjo pirmaisiais gyvenimo metais išmokta rusų kalba. Kiti jo parašyti kūriniai: „Niekad tavęs, mieste“, „Karalius Popielis ir kiti eilėraščiai“, „Užburtasis Gučio“, „Miestas be vardo“, „Kur saulė teka ir kur leidžiasi“, „Regėjimai ties San Francisko įlanka“, „Ulro žemė“, „Mokslų sodas“, „Pradedant nuo manųjų gatvių“ ir vėlesnės leidybos kūriniai: „Neaprėpiama žemė“, „Kronikos“, „Ant upės kranto:, „Tai“, „Kita erdvė: Orfėjas ir Euridikė“, „Pakelės šunytis“, „Milošo abėcėlė“, „Kita abėcėlė“. Už savo kūrybą 1980 metais yra gavęs Nobelio premiją, 1992 metais jam buvo suteiktas Lietuvos garbės piliečio ir Vytauto Didžiojo universiteto garbės daktaro vardai, pripažintas Pasaulio tautų teisuoliu.
+                    </p>
+                    <p class="title">,,Niekad tavęs, mieste“</p>
+<p class="sarasas">Niekad tavęs, mieste, negalėjau palikti,
+Ilgos buvo mylios, tačiau stūmė mane atgal it šachmatų figūrą.
+Bėgau žeme, kuri sukosi vis greičiau,
+Bet visados atsidurdavau ten: su knygom drobinėj terbelėj,
+Įbedęs akis į bronzines kalvas už Šv. Jokūbo bokštų,
+Kur varganas juda arklys ir žmogelis smulkus paskui plūgą,
+Nebegyvas – ir vienas, ir kitas.
+Taip, tas tiesa, nesuprato niekas bendruomenės anei miesto,
+Kinų Lux ir Helios, Halperno ir Segalo iškabų,
+Vaikštynių Šv. Jurgio gatve, pavadinta Mickevičiaus.
+Ne, nesuprato niekas. Niekam nebuvo skirta.
+Tačiau kai gyvenimas minta vien tik viltim,
+Jog išauš diena aštri ir perregima,
+Tai labai dažnai skaudžiai gaila.
+
+Berklis, 1963</p>
+
+                <p class="title">Atminimo įamžinimas</p>
+                <p class="info">
+Pagal poeto biografiją režisierius Juozas Javaitis 2011 sukūrė vėliau aukštai įvertintą filmą  
+                <a href="https://www.15min.lt/video/ceslovo-miloso-amzius-2012-52843">„Česlovo Milošo amžius“</a>.</p>
+                <p class="info">Česlovo Milošo vardu buvo pavadinti laiptai Vilniaus senamiestyje, ant kurių išgraviruoti poeto eilių fragmentai lietuvių ir lenkų kalbomis Idėjos autorius skulptorius Jonas Gencevičius, projekto architektas- Tauras Buzdys.</p>
+                
+                <p class="title">Galerija</p>
+                <div class="imgg"><figure>
+                <img class="img" src="./images/cmlaiptai.jpg"> 
+                <figcaption>Č. Milošo laiptai</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/cmlaiptas.jpg" > 
+                <figcaption>Č. Milošo eilių fragmentai išgraviruoti ant laiptų</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/cmfilmas.jpg" > 
+                <figcaption>Filmo "Isos slėnis" plakatas</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/cmteviske.jpg" > 
+                <figcaption>Č. Milošo tėviškė Šeteniuose</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/cmgimnazija.jpg" > 
+                <figcaption>Buvusi Žygimanto Augusto berniukų gimnazija, kuriuoje mokėsi Č. Milošas</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/cmbutas.png" > 
+                <figcaption>Vilniuje tarpukariu veikusio lenkiškojo Stepono Batoro universiteto bendrabutis studentams, kuriame studijų metais gyveno Česlovas Milošas</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/cmcukraine.jpg" > 
+                <figcaption>Cukrainė ,,Pas Rudnickį“, svarbiausia literatūros, spaudos ir meno bohemos vieta, labai mėgstama Č.Milošo</figcaption>
+                </figure>
+                </div>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

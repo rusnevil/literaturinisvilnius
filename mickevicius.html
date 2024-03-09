@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: black;">Literatūrinis Vilnius</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Apie</a></li>
+                <li><a href="./index.html">Sąrašas</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Adomas Mickevičius</h2>
+            <p class="info">
+                <img class="portretas" src="./images/amportretas.jpg" > 
+Adomas Mickevičius (Adam Mickiewicz, 1798–1855) – iškiliausias XIX a. Lietuvos poetas, lenkų literatūros klasikas, reikšminga Europos Romantizmo figūra. Gimė Naugarduke smulkiųjų bajorų šeimoje. 1807–1815 m. Adomas Mickevičius mokėsi Naugarduko apskrities mokykloje, vadovaujamoje vienuolių dominikonų, ją baigęs įstojo į Vilniaus universitetą – iš pradžių į Fizikos ir matematikos, vėliau perėjo į Literatūros ir laisvųjų menų fakultetą. Universitete susitiko bičiulių ir bendraminčių iš istorinės Lietuvos bajorų šeimų: Tomą Zaną , Joną Čečiotą, Juozapą Ježovskį, Pranciškų Malevskį, Anuprą Petraškevičių. 1817 m. rudenį šie studentai nelegaliai įkūrė Filomatų, „mokslo bičiulių“, draugiją, kurioje siekė intelektualinio bei moralinio tobulėjimo, vėliau svarbi tapo ir patriotinė veikla. Draugija studentams buvo savitos kūrybinės dirbtuvės, kuriose buvo skaitomos eilės, vykdavo poetų turnyrai. 1819–23 apskrities mokykloje Kaune dėstė literatūrą, lotynų kalbą, antikinę istoriją, poetiką, retoriką, gramatiką ir politinę ekonomiką. 1820 m. mirė Mickevičiaus motina, o 1821 m. jo mylima moteris ištekėjo už kito vyro. 1822 metais jis įgijo filosofijos magistro laipsnį. Rusijos valdžiai susekus filomatus suimtas ir 1823–24 kalintas kalėjimu paverstame Vilniaus bazilijonų vienuolyne, po to ištremtas į Rusiją. Ketino dalyvauti 1831 sukilime, bet jam atvykus prie Lenkijos sienos sukilimas jau buvo numalšintas. Nuo 1832 gyveno Paryžiuje. 1839–40 Lozanos universiteto lotynų kalbos ir literatūros, 1840–44 Collège de France Paryžiuje Slavų literatūros katedros profesorius; dėstė lietuvių mitologijos ir Lietuvos istorijos kursus. Domėjosi lietuvių folkloru, K. Donelaičio kūryba. 1841 suartėjo su mistiku A. Towiańskiu, skleidė jo mesianizmo idėjas. 1848 Italijoje suorganizavo lenkų legioną kovai su Austrija. 1853 prasidėjęs Rusijos–Turkijos karas pažadino rašytojo viltį dėl Lenkijos valstybingumo atkūrimo. A. Mickevičius mirė, manoma, nuo choleros, Konstantinopolyje. Jo kūnas buvo pervežtas į Paryžių ir palaidotas Montmorency kapinėse, tačiau 1890 iškilmingai buvo perkeltas į Vavelio katedros kriptą
+                </p>
+                <p class="title">Kūryba</p>
+                <p class="info">
+Per visą gyvenimą A. Mickevičius parašė nemažai kūrinių, žymiausi jų buvo 1818 debutavęs kūrinys  „Miesto žiema”, „Odė jaunystei”, „Romantika”, „Poezijos” I tomas, „Gražina”, „Vėlinės”, „Krymo sonetai”, „Baltas karžigys“, „Ponas Tadas“, „Konradas Valenrodas“. Originalus jo tekstas buvo rašytas lenkų kalba, tačiau tekstai buvo pradėti versti į lietuvių kalbą dar rašytojui nemirus. Pirmieji į lietuvių kalbą pradėti versti buvo kūriniai, susiję su Lietuvos istorija. Jo kūryba skatino lietuvių tautinį judėjimą, tautinės savimonės ugdymą. V. Kudirkos „Tautiškos giesmės“ pradžia yra  A. Mickevičiaus poemos „Ponas Tadas“ pradžios parafrazė. A. Mickevičiaus poezijos buvo veikiami Lietuvos tautinio atgimimo pradininkai, tokie kaip  A. Baranauskas, J. Basanavičius, S. Matulaitis, M. Biržiška.
+                </p>
+                <p class="title">"Ponas Tadas"</p>
+                <p class="sarasas">
+                Tėvyne Lietuva, mielesnė už sveikatą!
+                Kaip reik tave branginti, vien tik tas pamato,
+                Kas jau tavęs neteko. Nūn tave vaizduoju 
+                Aš, ilgesy grožiu sujaudintas tavuoju...
+                </p>
+                <p class="title">Atminimo įamžinimas</p>
+                <p class="info">
+Vilniuje įvairiais būdais įamžintas A. Mickevičiaus atminimas: veikia 2 muziejai, atidengtos 6 memorialinės lentos, pastatyti 2 paminklai, A. Mickevičiaus vardu pavadinta biblioteka, gimnazija, gatvė, vienas iš senojo Vilniaus universiteto kiemų.
+Taip pat norint sužinoti daugiau apie A. Mickevičių, galima pažiūrėti 1998 metų režisieriaus Raimundo Banionio biografinį 
+filmą  <a href="https://banionis.lt/index.php/adomas-mickevicius-realybes-versijos/">„Realybės versijos“</a>
+arba 1984 metų režisieriaus A. Digimo laidos įrašą <a href="https://www.lrt.lt/mediateka/irasas/9072/ar-adomas-mickevicius-kalbejo-lietuviskai">„Ar Adomas Mickevičius kalbėjo lietuviškai?“</a></p>
+                <p> Jo kūrybos galima pasiklausyti   
+                <a href="https://www.lrt.lt/mediateka/irasas/102729733/vidurnakcio-lyrika-adomas-mickevicius">LRT mediatekoje</a>.
+                </p>
+                
+                <p class="title">Galerija</p>
+                <div class="imgg"><figure>
+                <img class="img" src="./images/amnamai.jpg"> 
+                <figcaption>Vaikystės namai Naugarduke</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/ampoezija.jpg" > 
+                <figcaption>Adomo Mickevičiaus poezija</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/amsklpt.jpg" > 
+                <figcaption>Adomo Mickevičiaus paminklas</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/amvu.jpg" > 
+                <figcaption>Adomo Mickevičiaus kiemas VU</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/ammuziejus.jpg" > 
+                <figcaption>Adomo Mickevičiaus muziejus Vilniaus universitete, kuriame buvo rašoma „Gražina“</figcaption>
+                </figure>
+                </div>
+                <div class="imgg">
+                    <figure>
+                    <img class="img" src="./images/amkalinys.jpg" > 
+                    <figcaption>Konrado celė, kurioje buvo kalinamas Adomas Mickevičius</figcaption>
+                    </figure>
+                    <figure>
+                    <img class="img" src="./images/amkavine.jpg" > 
+                    <figcaption>Cukrainė „Pas Rudnickį“, kurioje Adomas Mickevičius praleisdavo daug laiko</figcaption>
+                    </figure>
+                    </div>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

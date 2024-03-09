@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: black;">Literatūrinis Vilnius</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Apie</a></li>
+                <li><a href="./index.html">Sąrašas</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Vincas Krėvė-Mickevičius</h2>
+            <p class="info">
+                <img class="portretas" src="./images/vkmportretas.png" > 
+Vincas Krėvė (1882–1954) – reikšmingiausias XX a. pradžios lietuvių rašytojas, literatūros klasikas. Krėvė esmingai praplėtė ir pagilino lietuvių literatūros problematiką filosofiniu žmogaus būties traktavimu, praturtino literatūros stilistinę ir žanrinę raišką, susiejo lietuvių literatūrą su Europos literatūros kontekstais. Jis gimė 1882 m. spalio 19 d. Subartonyse. Pasimokęs Merkinės pradinėje mokykloje bei pasiruošęs privačiai, Peterburge išlaikė 4 klasių kurso egzaminą, 1898 m. įstojo į Vilniaus kunigų seminariją, kurioje mokėsi 2 metus, bet dėl nesutarimų su seminarijos vadovybe iš jos pasitraukė. Mokantis kunigų seminarijoje, ne vienas įrašas byloja apie aistringą norą būti rašytoju.  Nors dvasininku netapo, visą gyvenimą domėjosi religija. Nuo 1907 m. iki gyvenimo pabaigos Krėvė rašė Biblijos motyvais pagrįstą veikalą „Dangaus ir žemės sūnūs“. 1904–1908 m. Kijevo, Lvovo, Vienos universitetuose Krėvė klausėsi filosofijos, literatūros, antikinių kalbų, sanskrito paskaitų, susižavėjo Rytų – Oriento kultūra, daug dėmesio skyrė Lietuvos istorijai, tautosakai. Domėjimasis Rytų kultūra paskatino Krėvę išvykti į Kaukazą. 1909–1920 m. mokytojavo Baku, dėstė rusų kalbą ir literatūrą, vasaromis parvykdavo į tėviškę Dzūkijoje rinkti liaudies dainų ir padavimų. 1913 m. susituokė su Rebeka Karak. Grįžęs į Lietuvą, 1922 m. Krėvė tapo besikuriančio Lietuvos universiteto profesoriumi, buvo Humanitarinių mokslų fakulteto organizatorius ir dekanas. Nuo pirmųjų Lietuvos nepriklausomybės metų Krėvė palaikė patriotines visuomenines organizacijas, dalyvavo tautinės vienybės draugijose bei partijose, buvo Šaulių sąjungos pirmininku, Tautininkų sąjungos pirmininku. Kaip Šaulių sąjungos pirmininkas, 1923 iaisiais organizavo Klaipėdos sukilimą, kurio tikslas buvo prijungti prancūzų valdomą Klaipėdos kraštą prie Lietuvos. 1940 m. spalio 1 d. Liaudies švietimo komisaras paskyrė jį Lituanistikos instituto direktoriumi, 1941 m. – pirmuoju Lietuvos mokslų akademijos prezidentu. Hitlerininkams okupavus Lietuvą, buvusio Liaudies seimo nariai, tarp jų ir Krėvė, pasirašė rezoliuciją, kuri atskleidė neteisėtus Sovietų Sąjungos veiksmus ir klastingą Stalino propagandą, okupuojant ir inkorporuojant Lietuvą į Sovietų imperiją 1940-ųjų vasarą. 1943-iaisiais vokiečių valdžia išvežė į koncentracijos stovyklas keliasdešimt Lietuvos intelektualų. Krėvė, vengdamas suėmimo, slapstėsi nuo gestapo, rašė romaną „Miglose: iš priešbolševikinių laikų reportažas“. 1944 m. liepos mėnesį, vengdamas bolševikų represijų, su šeima pasitraukė į Austriją. 1946 m. Lietuvos TSR Liaudies komisarų taryba pašalino Vincą Krėvę-Mickevičių LTSR Mokslų akademijos tikrųjų narių ir paskelbė jį „tėvynės išdaviku“. Atgimimo laikais, 1988 m., Lietuvos TSR Mokslų akademijos prezidiumas sugrąžino prof. V. Krėvei-Mickevičiui Akademijos tikrojo nario vardą. 1947 m. Krėvė išvyko į JAV. Pensilvanijos universitete dėstė rusų, lenkų, lietuvių kalbas bei literatūrą. Prieš mirtį Krėvė ketino baigti viso gyvenimo veikalą „Dangaus ir žemės sūnūs“, parašyti dramą apie Vytautą Didįjį. Mirė 1954 m. liepos 7 d. Springfilde. 1992 m. Krėvės ir jo žmonos palaikai iš Putnamo lietuvių kapinių buvo perkelti į Subartonių kapines.
+                </p>
+                <p class="title">Kūryba</p>
+                <p class="info">
+Baku parašė reikšmingiausius savo literatūros kūrinius, pelniusius jam lietuvių literatūros klasiko vardą: „Šarūną“, „Dainavos šalies senų žmonių padavimus“, „Pratjekabudą“, „Skirgailą“, „Žentą“, novelių rinkinį „Šiaudinėj pastogėj“. Šie pirmaisiais amžiaus dešimtmečiais sukurti kūriniai lėmė Krėvei didžiulį literatūrinį autoritetą. Vėliau išleido „Likimo keliais“, apsakymus „Bedievis“, „Skerdžius“, apysaką „Raganius“, „Rytų pasakos“, „Dangaus ir žemės sūnūs“, lietuvių tautosakos rinkinius: „Dainavos krašto liaudies dainos“ , „Aitvaras liaudies padavimuose“, „Dzūkų poringės“, „Patarlės ir priežodžiai“. Pagal Krėvės kūrinius yra pastatyta spektaklių, filmų.
+                </p>
+                <p class="title">Atminimo įamžinimas</p>
+                <p class="info">
+                Režisieriai Aida Ismailova, Bronius Slavinskas yra sukūrę filmą apie Vinco Krėvės-Mickevičiaus gyvenimą Azerbaidžane, Baku 
+                mieste  
+                <a href="https://www.youtube.com/watch?v=4v76a02IIWM">„Azerstano šalis“ (2008 m.)</a>.</p>
+                <p> 
+Taip pat jo kūrybos galima pasiklausyti 
+                <a href="https://www.lrt.lt/mediateka/irasas/2000162192/vakaras-su-knyga-vincas-kreve-raganius-i-d">LRT mediatekoje</a>.
+                </p>
+                <p class="sarasas">
+Šiai dienai dirba du memorialiniai jo muziejai:
+1.  Vinco Krėvės-Mickevičiaus memorialinis muziejus - Merkinės krašto muziejaus padalinys, kaupiantis, saugantis, tiriantis ir populiarinantis rašytojo Vinco Krėvės-Mickevičiaus kūrybinį bei memorialinį palikimą.
+<div class="imgg"><figure>
+    <img class="img" src="./images/vkmmuziejus1.jpg"> 
+    <figcaption>   </figcaption>
+    </figure></div>
+    2. Vinco Krėvės-Mickevičiaus memorialinis butas-muziejus atidarytas 1997 m. Vilniuje, buvusiame profesorių name, kuriame 1940-1944 m. gyveno Vincas Krėvė-Mickevičius. Čia gyvendamas tapo Lietuvos Mokslų akademijos organizatoriumi ir pirmuoju jos prezidentu, akademiku.
+    <div class="imgg"><figure>
+        <img class="img" src="./images/vkmmuziejus2.jpg"> 
+        <figcaption>   </figcaption>
+        </figure></div>  
+</p>
+                <p class="title">Galerija</p>
+                <div class="imgg"><figure>
+                <img class="img" src="./images/vkmuni.jpg"> 
+                <figcaption>V. Krėvė baigęs Lvovo universitetą filosofijos daktaro laipsniu</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/vkmprof.jpg" > 
+                <figcaption>V. Krėvė 1922 m. paskirtas Lietuvos universiteto ordinariniu profesoriumi</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/vkmknyga.jpg" > 
+                <figcaption>V. Krėvės „Dangaus ir žemės sūnūs“</figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg">
+                <figure>
+                <img class="img" src="./images/vkmpirm.jpg" > 
+                <figcaption>1922 m. V. Krėvė išrinktas Lietuvos Šaulių sąjungos pirmininku</figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/vkmaustrija.jpg" > 
+                <figcaption>1944 m. V. Krėvė vengdamas pakartotinės bolševikų okupacijos pasitraukė iš Lietuvos į Austriją</figcaption>
+                </figure>
+                </div>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

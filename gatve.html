@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: black;">Literatūrinis Vilnius</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Apie</a></li>
+                <li><a href="./index.html">Sąrašas</a></li>
+                <li><a href="#map">Žemėlapis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Literatų gatvė</h2>
+            <p class="info">
+                <img class="portretas" src="./images/lg.jpg" > 
+                Literatų gatvė – viena seniausių gatvių Vilniaus senamiestyje, žinoma dėl sienų, papuoštų meno kūriniais, susijusiais su rašytojais ir poetais. Gatvė gavo savo dabartinį pavadinimą tik XX a. pradžioje dėl joje įsikūrusių spaustuvių, knygynų bei antikvariatų. Dar viena versija dėl Literatų gatvės pavadinimo kilmės yra susijusi su rašytoju Adomu Mickevičiumi. Šioje gatvėje, keturių aukštų namo palėpėje, jis nuomojosi butą. Tiesa, šiuo metu gatvelė žavi ne tik tuo, kad kadaise čia gyveno poetas, tačiau ir papildomais akcentais, kurie pradėjo puošti gatvę 2008 metais. Iniciatoriai – menininkai, kurie norėdami labiau sureikšminti literatūrinius tautos palikimus gatvę puošė ir ar vis puošia kūriniais, kurie yra susiję su literatais. Tam buvo atidengta visa siena, kurioje menininkai kūrė dirbinius iš medžio, stiklo, metalo bei kitų medžiagų ir kaip juos dekoravo į sieną. Žinoma, visus juos vienijo literatūros simbolika. 2008 metais menininkų iniciatyva buvo pradėtas kūrybinis projektas Literatų gatvėje - ant gatvės sienų pradėtos kabinti atminimo lentelės, susijusios su Vilniuje gyvenusiais, kūrusiais literatais, su užsienio literatais, besilankiusiais Vilniuje. 2009 metų gegužės 28 dieną buvo atidengti pirmieji darbai.  Kadangi projekte menininkai dalyvavo kaip savanoriai, jų tarpe buvo daug jaunų kūrėjų, įamžinusių savo mėgstamus rašytojus. Rašytojai buvo pasirenkami laisvai, be išankstinio susitarimo, pagal „mėgstamas“, „žinomas“, „populiarus“ principą. Šiai dienai ant sienos kabo virš 200 dekoruotų keramikos, medžio, metalo ir stiklo plokštelių skirtų literatams, tokiems kaip: Sigitas Geda, Kazys Binkis, Romain Gary, Vytautas Kernagis, Janina Degutytė, Jonas Mekas, Jurga Ivanauskaitė, Antanas Škėma, Paulius Širvys, Vincas Mykolaitis – Putinas, Vytautė Žilinskaitė, Antanas Strazdas, Ieva Simonaitytė, Romualdas Granauskas, Maironis, Vanda Juknaitė, Oskaras Milašius, Česlovas Milošas, Kristina Sabaliauskaitė, Žemaitė, Tomas Venclova, ir daugelis kitų.
+                </p>
+                <p class="title">"Literatų gatvė"</p>
+                <p class="sarasas">
+                    Prieš lietuvių kalbos abitūros
+                    egzaminą, menu, su klasiokais
+                    literatų gatvėje dūros
+                    prisirūkę ir po pedesioką
+                    
+                    padarę iš baimės, kol mąstėm
+                    temas, kurios gal ir gali
+                    būti nuleistos – iškąskit,
+                    laisvą renkuosi, pro šalį
+                    
+                    štai jau trečią dešimtmetį teka
+                    ir užtikrina tvirtą trajaką
+                    talentas, kad ir ne ovič
+                    
+                    bet mane mažutėlį įpieš gal
+                    gatvėje literatų, gdzie mieszkal
+                    Mickiewicz I Jakimowicz
+
+                    Aidas Marčėnas                    
+                    </p>
+                
+                <p class="title">Galerija</p>
+                <div class="imgg"><figure>
+                <img class="img" src="./images/lg1.jpg"> 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg2.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg3.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                </div>
+
+                <div class="imgg"><figure>
+                <img class="img" src="./images/lg4.jpg"> 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg5.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg6.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                 </div>
+
+                <div class="imgg"><figure>
+                <img class="img" src="./images/lg7.jpg"> 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg8.jpg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                <figure>
+                <img class="img" src="./images/lg" > 
+                <figcaption>   </figcaption>
+                </figure>
+                </div>
+         </section>
+        <section id="map">
+            <h2>Žemėlapis</h2>
+            <!-- Your map container goes here -->
+            <div id="map-container">
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024.</p>
+    </footer>
+
+    <!-- Add Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

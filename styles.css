@@ -69,7 +69,7 @@ a:hover {
 
 /* Adjust map container dimensions */
 #map-container {
-    height: 400px;
+    height: 450px;
     width: 100%;
 }
 
@@ -77,14 +77,14 @@ a:hover {
     background-color: #5ccc67;
 }
 
-.pirmastaskasimg  {
+.mapimg  {
     float: left;
-    width: 100px;
+    width: auto;
     height: 120px;
     margin-right: 10px;
 }
 
-.pirmastaskastxt {
+.maptxt {
     text-align: justify;
 }
 
@@ -99,35 +99,57 @@ a:hover {
 }
 
 .title {
-    font-style: initial;
+    font-size: x-large;
 }
 
-.vk {
+.info {
     text-align: justify;
 }
 
-.tautiskag {
-    font-size: x-large;
-}
 
 .leaflet-container a {
     color: #337135;
 }
 
-.vkportretas {
-    height: 200px;
-    width: 150px;
-    float: right;
-    margin-left: 15px;
+.sarasas {
+    white-space: pre-line;
 }
 
-.himnas {
-    text-align: justify;
-}
-
-.himnasimg {
-    height: 150px;
-    width: 100px;
+.portretas {
+    width: auto;
+    height: 350px; 
     float: right;
-    margin-left: 15px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
+    
+
+figure {
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+  }
+
+  img {
+    width: auto;
+    height: 350px;
+  }
+
+  figcaption {
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+  }
+
+  .imgg {
+    display: inline-block;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .piesiniai {
+    text-align: center;
+    font-style: italic;
+    color: #000000;
+  }
