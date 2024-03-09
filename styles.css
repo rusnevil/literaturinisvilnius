@@ -160,7 +160,7 @@ figure {
     color: #000000;
   }
 
-  @media (max-width: 678px){
+  @media (hover: none){
     .img {
         max-width: 100%;
         height: auto;
