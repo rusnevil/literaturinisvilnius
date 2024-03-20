@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
     L.marker(taskas10, {icon: icon10}).addTo(map)
         .bindPopup(`
         <p class="maptxt"> <img class="mapimg" src="./images/rgportretas.jpg">
-        <p class="txtname">Romain Gary</p>
+        <p class="txtname">Romenas Gari</p>
         1914 m. gegužės 8 d., Vilniaus mieste Leibos ir Minos Kacew šeimoje gimė sūnus Romain. Deja, Romaino tėvų santuoka buvo nesėkminga, tad berniukas augo atskirai nuo tėvo. Jiedu su motina buvo apsistoję Pohulankos g. 16 (Jono Basanavičiaus g. 18), tuo tarpu tėvas jau su kita moterimi kūrė šeimą.
         <a href="./gary.html">Skaityti daugiau</a></p>        
         `)
