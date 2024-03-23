@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
      L.marker(taskas3, {icon: icon3}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/vkmportretas.png">
+        <p class="maptxt"> <img class="mapimg" src="./images/vkmmuziejus2.jpg">
         <p class="txtname">Vincas Krėvė-Mickevičius</p>
         Vincas Krėvė (1882–1954) – reikšmingiausias XX a. pradžios lietuvių rašytojas, literatūros klasikas. Krėvė esmingai 
         praplėtė ir pagilino lietuvių literatūros problematiką filosofiniu žmogaus būties traktavimu, praturtino literatūros 
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas4, {icon: icon4}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/vmportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/vmmuziejus.jpg">
         <p class="txtname">Vincas Mykolaitis-Putinas</p>
         Vincas Mykolaitis-Putinas gimė 1893 m. sausio 6 d. ūkininkų šeimoje, Pilotiškių kaime. Jis turėjo dar šešis brolius ir dvi seseris. Tėvas buvo labai griežtas, ambicingas, kieto charakterio. Motina jautresnė, švelnesnio būdo, niekada nerodydavo savo pykčio. Vincas dvi žiemas lankė Gudelių pradžios mokyklą, po to mokėsi Marijampolės gimnazijoje ir baigęs keturias klases, paskatintas tėvų, įstojo į Seinių kunigų seminariją. Besimokydamas pirmoje gimnazijos klasėje, pradėjo dainuoti mokinių chore, o vėliau ir Marijampolės lietuvių chore.
         <a href="./putinas.html">Skaityti daugiau</a></p>        
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas5, {icon: icon5}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/jmportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/jmkatedra.jpg">
         <p class="txtname">Justinas Marcinkevičius</p>
         Justinas Marcinkevičius (1930 03 - 2011 02 16) - lietuvių rašytojas, vertėjas. Mokėsi Alksniakiemio pradžios mokykloje, vėliau Prienų „Žiburio“ gimnazijoje, kur sukūrė savo pirmuosius kūrinius: parašė poemėles apie Vilniaus krašto išvadavimą iš Lenkų, apie jo kaimo draugų, partizanų, žūtį ir trečiąją mokyklos teatrui apie tuometinį gyvenimą. Iš šių trijų poemėlių, ne viena neišliko. 1948 m. su prokuratūra buvo pradėto mokinių tardymai dėl įtarimų, kad yra susidariusi mokinių grupė propaguojanti laisvės idėjas.
         <a href="./marcinkevicius.html">Skaityti daugiau</a></p>        
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas6, {icon: icon6}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/jvportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/jvpaminklas.jpg">
         <p class="txtname">Judita Vaičiūnaitė</p>
         Judita Vaičiūnaitė (1937–2001) – poetė, „Poezijos pavasario“ laureatė, DLK Gedimino ordininkė. Iki septyniolikos metų gyveno Kaune, mirus tėvui išsikraustė į Vilnių, 1959 m. Vilniaus universitete baigė lituanistiką. Studijų metai Vaičiūnaitę suvedė su dviem geriausiais literatūriniais bičiuliais Aušra Sluckaite ir Tomu Venclova. Ji dirbo „Literatūros ir meno“, „Kalba Vilnius”, „Naujojo dienovidžio” redakcijose.
         <a href="./vaiciunaite.html">Skaityti daugiau</a></p>        
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas7, {icon: icon7}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/cmportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/cmlaiptai.jpg">
         <p class="txtname">Česlovas Milošas</p>
         Česlovas Milošas (1944-2004) kilęs iš paskutinės Lietuvos Didžiosios Kunigaikštystės bajorų kartos. Būdamas dar mažas vaikas, prieš prasidedant I pasauliniam karui, su mama iškeliavo į Rusiją pas inžinieriumi dirbantį tėvą, ten praleido penkerius metus.
         <a href="./milosas.html">Skaityti daugiau</a></p>        
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas8, {icon: icon8}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/jiportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/jipaminklas.jpg">
         <p class="txtname">Jurga Ivanauskaitė</p>
         Jurga Ivanauskaitė (1961–2007) –  prozininkė, eseistė, dramaturgė, poetė, dailininkė, fotografė. Populiariausia XX a., antrosios pusės lietuvių rašytoja. Gimė Vilniuje, mokėsi Vilniaus 22-ojoje vidurinėje mokykloje.  1978 m. paskelbė pirmuosius eilėraščius žurnale „Moksleivis“. 1980 m. baigė M. K. Čiurlionio vidurinę meno mokyklą, 1985 m. – grafikos studijas Vilniaus dailės akademijoje, tais pačiais metais išleido pirmąją novelių knygą „Pakalnučių metai“. 
         <a href="./ivanauskaite.html">Skaityti daugiau</a></p>        
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas10, {icon: icon10}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/rgportretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/rgskulptura.jpg">
         <p class="txtname">Romenas Gari</p>
         1914 m. gegužės 8 d., Vilniaus mieste Leibos ir Minos Kacew šeimoje gimė sūnus Romenas. Deja, Romeno tėvų santuoka buvo nesėkminga, tad berniukas augo atskirai nuo tėvo. Jiedu su motina buvo apsistoję Pohulankos g. 16 (Jono Basanavičiaus g. 18), tuo tarpu tėvas jau su kita moterimi kūrė šeimą.
         <a href="./gary.html">Skaityti daugiau</a></p>        
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     L.marker(taskas13, {icon: icon13}).addTo(map)
         .bindPopup(`
-        <p class="maptxt"> <img class="mapimg" src="./images/importretas.jpg">
+        <p class="maptxt"> <img class="mapimg" src="./images/imatminimas.jpg">
         <p class="txtname">Icchoka Meras</p>
         Icchokas Meras, gimęs 1934 m. Kelmėje – prozininkas ir scenarijų autorius, diplomuotas radijo ir televizijos inžinierius. Vaikystėje per holokaustą neteko tėvų ir pats per stebuklą likęs gyvas buvo priglobtas ir užaugintas lietuvių šeimoje. Vaikystės išgyvenimai iš dalies atsispindi pirmojoje jo apsakymų knygoje Geltonas lopas, parašytoje 1960 m. Pirmosios Mero knygos: „Geltonas lopas“, „Lygiosios trunka akimirką“, „Žemė visada gyva“, „Ant ko laikosi pasaulis“, Lietuvoje buvo sutiktos gana santūriai. 
         <a href="./meras.html">Skaityti daugiau</a></p>        
